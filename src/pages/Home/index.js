@@ -1,11 +1,7 @@
 function Home() {
     return (
         <div>
-            <h1>Home</h1>
-            <p>
-                This is a simple web application that demonstrates how to build a web application using vanilla
-                JavaScript.
-            </p>
+            <h1>Welcome to the Home</h1>
         </div>
     );
 }

@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: var(--default-layout-width);
+}
+
+.content{
+    flex: 1;
+}

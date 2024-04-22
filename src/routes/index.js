@@ -17,35 +17,41 @@ const publicRoutes = [
     {
         path: '/',
         component: Welcome,
+        layout: HeaderOnly,
     },
     {
         path: '/about',
         component: About,
+        layout: HeaderOnly,
     },
     {
         path: '*',
         component: Err,
+        layout: HeaderOnly,
     },
     {
         path: '/toolsPage',
         component: ToolsPage,
+        layout: HeaderOnly,
     },
     {
         path: '/login',
         component: Login,
+        layout: HeaderOnly,
     },
     {
         path: '/signup',
         component: Signup,
+        layout: HeaderOnly,
     },
     {
         path: '/resetPassword',
         component: ResetPassword,
+        layout: HeaderOnly,
     },
     {
         path: '/home',
         component: Home,
-        layout: HeaderOnly,
     },
     {
         path: '/search',
@@ -54,6 +60,6 @@ const publicRoutes = [
     },
 ];
 
-const privateRoutes = [];
+// const privateRoutes = [];
 
-export { publicRoutes, privateRoutes };
+export { publicRoutes, /*privateRoutes*/ };
