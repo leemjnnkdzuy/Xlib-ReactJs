@@ -7,6 +7,7 @@ import 'boxicons/css/boxicons.css';
 import styles from './Header.module.scss';
 import { Wrapper as PopperWrapper } from '~/components/Popper';
 import Item from '../Itemtools';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -20,10 +21,12 @@ function Header() {
     return (
         <header className={cx('header')}>
             <div className={cx('inner')}>
-                <button className={cx('logo')}>
-                    Xlib
-                    <span className={cx('tagline')}>Code By LeeMjnnkDzuy</span>
-                </button>
+                <Link to={"/"}>
+                    <button className={cx('logo')}>
+                        Xlib
+                        <span className={cx('tagline')}>Code By LeeMjnnkDzuy</span>
+                    </button>
+                </Link>
             </div>
 
             <div className={cx('menu')}>

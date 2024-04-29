@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './Login.module.scss';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -20,7 +21,7 @@ function Login() {
                             <input type="password" required name="#" />
                             <label for="">Mật Khẩu</label>
                         </div>
-                        <div className={cx("remember")}>
+                        <div className={cx('remember')}>
                             <label for="">
                                 <input type="checkbox" name="#" />
                                 Lưu Đăng Nhập
@@ -34,13 +35,13 @@ function Login() {
 
                     <div className={cx('register-forget')}>
                         <p>
-                            Bạn Quên Tài Khoản ?<a href="#"> Tìm Lại Tài Khoản</a>
+                            Bạn Quên Tài Khoản ?<Link to={'/Resetpassword'}> Tìm Lại Tài Khoản</Link>
                         </p>
                     </div>
 
                     <div className={cx('register-forget')}>
                         <p>
-                            Bạn Chưa Có Tài Khoản ?<a href="#"> Tạo Tài Khoản</a>
+                            Bạn Chưa Có Tài Khoản ?<Link to={'/Signup'}> Tạo Tài Khoản</Link>
                         </p>
                     </div>
                 </div>

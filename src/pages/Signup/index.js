@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './Signup.module.scss';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -33,13 +34,13 @@ function Signup() {
 
                     <div className={cx('register-forget')}>
                         <p>
-                            Bạn Đã Có Tài Khoản ?<a href="#"> Đăng Nhập</a>
+                            Bạn Đã Có Tài Khoản ?<Link to={'/Login'}> Đăng Nhập</Link>
                         </p>
                     </div>
 
                     <div className={cx('register-forget')}>
                         <p>
-                            Bạn Quên Tài Khoản ?<a href="#"> Tìm Lại Tài Khoản</a>
+                            Bạn Quên Tài Khoản ?<Link to={'/Resetpassword'}> Tìm Lại Tài Khoản</Link>
                         </p>
                     </div>
                 </div>
