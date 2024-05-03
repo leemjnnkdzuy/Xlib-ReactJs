@@ -11,11 +11,16 @@ import Signup from '~/pages/Signup';
 import ResetPassword from '~/pages/ResetPassword';
 import Home from '~/pages/Home';
 import Search from '~/pages/Search';
-
+import PageTools from '~/pages/PageTools';
 
 const publicRoutes = [
     {
         path: '/',
+        component: Welcome,
+        layout: HeaderOnly,
+    },
+    {
+        path: '/Welcome',
         component: Welcome,
         layout: HeaderOnly,
     },
@@ -58,8 +63,13 @@ const publicRoutes = [
         component: Search,
         layout: null,
     },
+    {
+        path: '/PageTools',
+        component: PageTools,
+        layout: HeaderOnly,
+    },
 ];
 
 // const privateRoutes = [];
 
-export { publicRoutes, /*privateRoutes*/ };
+export { publicRoutes /*privateRoutes*/ };

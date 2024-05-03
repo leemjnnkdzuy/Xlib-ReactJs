@@ -6,7 +6,7 @@ const cx = classNames.bind(styles);
 
 function Signup() {
     return (
-        <section>
+        <div className={cx('body')}>
             <div className={cx('form-box')}>
                 <div className={cx('form-value')}>
                     <div>
@@ -45,7 +45,7 @@ function Signup() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
 
