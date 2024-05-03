@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Xlib-ReactJs/Welcome/static/css/main.bc5addce.css",
-    "main.js": "/Xlib-ReactJs/Welcome/static/js/main.3f0cfa06.js",
-    "static/js/453.d5a658f8.chunk.js": "/Xlib-ReactJs/Welcome/static/js/453.d5a658f8.chunk.js",
-    "static/media/avatar.png": "/Xlib-ReactJs/Welcome/static/media/avatar.48cadb59958ffdc787e4.png",
-    "static/media/boxicons.svg": "/Xlib-ReactJs/Welcome/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
-    "static/media/boxicons.eot": "/Xlib-ReactJs/Welcome/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
-    "static/media/boxicons.woff": "/Xlib-ReactJs/Welcome/static/media/boxicons.d12afc36557395143e4b.woff",
-    "static/media/boxicons.ttf": "/Xlib-ReactJs/Welcome/static/media/boxicons.db9ddb1898dbd76badca.ttf",
-    "static/media/err.png": "/Xlib-ReactJs/Welcome/static/media/err.f3f839b7e8d1abb1b81a.png",
-    "static/media/boxicons.woff2": "/Xlib-ReactJs/Welcome/static/media/boxicons.df635aaf04cd75132f62.woff2",
-    "index.html": "/Xlib-ReactJs/Welcome/index.html",
-    "main.bc5addce.css.map": "/Xlib-ReactJs/Welcome/static/css/main.bc5addce.css.map",
-    "main.3f0cfa06.js.map": "/Xlib-ReactJs/Welcome/static/js/main.3f0cfa06.js.map",
-    "453.d5a658f8.chunk.js.map": "/Xlib-ReactJs/Welcome/static/js/453.d5a658f8.chunk.js.map"
+    "main.css": "/Xlib-ReactJs/static/css/main.19c0ba41.css",
+    "main.js": "/Xlib-ReactJs/static/js/main.0cad49f8.js",
+    "static/js/453.d5a658f8.chunk.js": "/Xlib-ReactJs/static/js/453.d5a658f8.chunk.js",
+    "static/media/avatar.png": "/Xlib-ReactJs/static/media/avatar.48cadb59958ffdc787e4.png",
+    "static/media/boxicons.svg": "/Xlib-ReactJs/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/Xlib-ReactJs/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/Xlib-ReactJs/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/Xlib-ReactJs/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/err.png": "/Xlib-ReactJs/static/media/err.f3f839b7e8d1abb1b81a.png",
+    "static/media/boxicons.woff2": "/Xlib-ReactJs/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "index.html": "/Xlib-ReactJs/index.html",
+    "main.19c0ba41.css.map": "/Xlib-ReactJs/static/css/main.19c0ba41.css.map",
+    "main.0cad49f8.js.map": "/Xlib-ReactJs/static/js/main.0cad49f8.js.map",
+    "453.d5a658f8.chunk.js.map": "/Xlib-ReactJs/static/js/453.d5a658f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc5addce.css",
-    "static/js/main.3f0cfa06.js"
+    "static/css/main.19c0ba41.css",
+    "static/js/main.0cad49f8.js"
   ]
 }
